@@ -8,7 +8,7 @@ R1 = (E_number % 6) + 1
 R2 = (E_number % 3) + 1
 R3 = (E_number % 4) + 1
 
-omega_rpm = 2000       # crank speed in RPM
+omega_rpm = 1660       # crank speed in RPM
 omega = omega_rpm * 2 * np.pi / 60  # rad/s
 
 Bore = 0.08            # m
